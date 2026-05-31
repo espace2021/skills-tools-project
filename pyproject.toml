@@ -1,0 +1,19 @@
+[project]
+name = "car-marketing-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.3",
+    "fastmcp>=3.3.1",
+    "google-auth>=2.53.0",
+    "gspread>=6.2.1",
+    "langchain-google-genai>=4.2.3",
+    "langchain-mcp-adapters>=0.2.2",
+    "langgraph>=1.2.2",
+    "langgraph-cli[inmem]>=0.4.26",
+    "langsmith>=0.8.5",
+    "uvicorn>=0.48.0",
+]
