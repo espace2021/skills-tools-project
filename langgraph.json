@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "marketing_agent": "graph.workflow:graph"
+    "marketing_agent": "graph.devgraph:graph"
   },
   
   "env": "./.env"
